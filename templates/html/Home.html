@@ -1,0 +1,392 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <!--====== Required meta tags ======-->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--====== Title ======-->
+    <title>Smart - Multi-purpose Landing Page Template</title>
+
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="{% static "assets/images/favicon.png"%}" type="image/png">
+
+    <!--====== Bootstrap css ======-->
+    <link rel="stylesheet" href="{% static "assets/css/bootstrap.min.css"%}">
+
+    <!--====== Line Icons css ======-->
+    <link rel="stylesheet" href="{% static "assets/css/LineIcons.css"%}">
+
+    <!--====== Magnific Popup css ======-->
+    <link rel="stylesheet" href="{% static "assets/css/magnific-popup.css"%}">
+
+    <!--====== Slick css ======-->
+    <link rel="stylesheet" href="{% static "assets/css/slick.css"%}">
+
+    <!--====== Animate css ======-->
+    <link rel="stylesheet" href="{% static "assets/css/animate.css"%}">
+
+    <!--====== Default css ======-->
+    <link rel="stylesheet" href="{% static "assets/css/default.css"%}">
+
+    <!--====== Style css ======-->
+    <link rel="stylesheet" href="{% static "assets/css/style.css"%}">
+
+    <style>
+        .invoice{
+            text-align:right;
+            margin-right: 35%;
+        }
+        .heading{
+            text-align:center;
+            color:#2bdbdc;
+        }
+    </style>
+
+</head>
+
+<body>
+    
+    <!--====== PRELOADER PART START ======-->
+
+    <div class="preloader">
+        <div class="loader">
+            <div class="ytp-spinner">
+                <div class="ytp-spinner-container">
+                    <div class="ytp-spinner-rotator">
+                        <div class="ytp-spinner-left">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                        <div class="ytp-spinner-right">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--====== PRELOADER PART ENDS ======-->
+
+    <!--====== NAVBAR PART START ======-->
+
+    <section class="header-area">
+        <div class="navbar-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="#">
+                                <img src="{% static "assets/images/logo.png" %}" alt="Logo">
+                            </a>
+
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarEight" aria-controls="navbarEight" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarEight">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item active">
+                                        <a class="page-scroll" href="#home">HOME</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#about">Create New Bill</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#portfolio">View Existing Bill</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#pricing">Add New Doctor</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#testimonial">About Us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="/">SIGN OUT</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav> <!-- navbar -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- navbar area -->
+        
+        <div id="home" class="slider-area">
+            <div class="bd-example">
+                <div id="carouselOne" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselOne" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselOne" data-slide-to="1"></li>
+                        <li data-target="#carouselOne" data-slide-to="2"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item bg_cover active" style="background-image: url({% static "assets/images/slider-1.jpg" %})">
+                            <div class="carousel-caption">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-xl-6 col-lg-7 col-sm-10">
+                                            <ul class="carousel-btn rounded-buttons">
+                                            </ul>
+                                        </div>
+                                    </div> <!-- row -->
+                                </div> <!-- container -->
+                            </div> <!-- carousel caption -->
+                        </div> <!-- carousel-item -->
+
+                        <div class="carousel-item bg_cover" style="background-image: url({% static "assets/images/slider-2.jpg" %})">
+                            <div class="carousel-caption">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-xl-6 col-lg-7 col-sm-10">
+                                            <ul class="carousel-btn rounded-buttons">
+                                            </ul>
+                                        </div>
+                                    </div> <!-- row -->
+                                </div> <!-- container -->
+                            </div> <!-- carousel caption -->
+                        </div> <!-- carousel-item -->
+
+                        <div class="carousel-item bg_cover" style="background-image: url({% static "assets/images/slider-3.jpg" %})">
+                            <div class="carousel-caption">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-xl-6 col-lg-7 col-sm-10">
+                                            <ul class="carousel-btn rounded-buttons">
+                                            </ul>
+                                        </div>
+                                    </div> <!-- row -->
+                                </div> <!-- container -->
+                            </div> <!-- carousel caption -->
+                        </div> <!-- carousel-item -->
+                    </div> <!-- carousel-inner -->
+
+                    <a class="carousel-control-prev" href="#carouselOne" role="button" data-slide="prev">
+                        <i class="lni-arrow-left-circle"></i>
+                    </a>
+
+                    <a class="carousel-control-next" href="#carouselOne" role="button" data-slide="next">
+                        <i class="lni-arrow-right-circle"></i>
+                    </a>
+                </div> <!-- carousel -->
+            </div> <!-- bd-example -->
+        </div>
+
+    </section>
+
+    <!--====== NAVBAR PART ENDS ======-->
+
+    <!--====== SAIDEBAR PART START ======-->
+
+   
+    <!--====== SAIDEBAR PART ENDS ======-->
+       
+    <!--====== ABOUT PART START ======-->
+
+    <section id="about" class="about-area">
+        <h1 class="heading">Details For Invoice</h1> <br><br>
+
+        <form action="home" id="formId" class="invoice" method="post">
+            {% csrf_token %}
+        Name of Patient: <input type="text" name="pname"><br><br>
+        Contact Number: <input required type="number" name="number"><br><br>
+        CNIC: <input required type="number" name="cnic"><br><br>
+        Disease: <input type="text" name="disease"><br><br>
+            Operation Fee:&nbsp;<input required type="number" name="operat"><br><br>
+            Nursing Fee:&nbsp;<input required type="number" name="nurse"><br><br>
+            Room Rent:&nbsp;<input required type="number" name="room"><br><br>
+            Patient Meal:&nbsp;<input required type="number" name="food"><br><br>
+           <div style="margin: auto" id="forPres">
+               <br>Medicine:&nbsp;<input required type="text" placeholder="Name" name="prename0"><br><input required type="text" placeholder="Description" name="predes0"><br>
+               <input required type="number" placeholder="Unit Price" name="preprice0"><br><input required placeholder="Quantity" type="number" name="prequan0"><br>
+
+            <script>
+                let counter=0;
+                function addnew(){
+                    counter++;
+                    const div=document.createElement('div');
+                    div.innerHTML=`
+                    <br><input required type="text" placeholder="Name" name="prename${counter}"><br><input required type="text" placeholder="Description" name="predes${counter}"><br>
+               <input required type="number" placeholder="Unit Price" name="preprice${counter}"><br><input required placeholder="Quantity" type="number" name="prequan${counter}">`
+                    document.getElementById("forPres").appendChild(div);
+                }
+
+            </script>
+           </div>
+
+        <br>Doctor I'd: <input required type="number" value="0" name="dnum"><br><br>
+
+        
+        <input type="submit">
+        </form><br>
+        <button style="float:right;margin-right: 28%;margin-top: -10%" onclick="addnew()">Add New</button>
+        <h6 style="float: right;margin-top:-27%;margin-right: 10%;">Table For All Doctors</h6>
+        <table style=" border: 1px solid black;float: right;margin-top:-25%;margin-right: 1%;">
+         <tr>
+    <th style=" border: 1px solid black;padding:2%;">Doctor Name</th>
+    <th style=" border: 1px solid black;padding:2%;">Doctor I'd</th>
+    <th style=" border: 1px solid black;padding:2%;">Speciality</th>
+         </tr>
+
+        {% for doc in docs %}
+            <tr>
+                <td style=" border: 1px solid black;padding:2%;">{{doc.name}}</td>
+                <td style=" border: 1px solid black;padding:2%;">{{doc.id}}</td>
+                <td style=" border: 1px solid black;padding:2%;">{{doc.speciality}}</td>
+             </tr>
+        {% endfor %}
+        </table>
+    </section>
+
+    <!--====== ABOUT PART ENDS ======-->
+    
+    <!--====== VIEW BILL PART START ======-->
+
+    <section id="portfolio" class="portfolio-area">
+
+        <br><br><br><br><br><br><h1 class="heading">View Existing Invoice</h1> <br><br>
+        <form action="invoice" method="post" style="margin-right: 38%;float: right;">
+            {% csrf_token %}
+            Enter Invoice number: <input required name = "num_inv" type="number">
+            <br><br><br><input style="margin-right: 20%;float: right;" type="submit">
+
+        </form><br><br><br><br><br><br><br><br><br>
+    </section>
+
+    <!--====== VIEW BILL PART ENDS ======-->
+    
+    <!--====== PRINICNG STYLE EIGHT START ======-->
+
+    <section id="pricing" class="pricing-area">
+        <br><br><br><br><h1 class="heading">Details of Doctor</h1><br><br>
+        <form action="doc" method="post" class="invoice" style="margin-right: 40%">
+            {% csrf_token %}
+            Name of Doctor:&nbsp;<input required type="text" name="name_doc"><br>
+            Speciality: &nbsp;<input required type="text" name="spec_doc"><br>
+            Fee:&nbsp;<input required type="number" name="fee"><br><br>
+            <input type="submit" style="margin-right: 7%">
+        </form><br><br><br><br>
+
+    </section>
+
+    <!--====== PRINICNG STYLE EIGHT ENDS ======-->
+    
+
+    
+    <!--====== TESTIMONIAL THREE PART START ======-->
+
+    <section id="testimonial" class="testimonial-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section-title text-center pb-20">
+                        <h1 class="heading">Meet The Creators</h1>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+            
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row testimonial-active">
+                        <div class="col-lg-4">
+                            <div class="single-testimonial mt-30 mb-30 text-center">
+                                <div class="testimonial-image">
+                                    <img src="{% static "assets/images/author-3.jpg"%}" alt="Author">
+                                </div>
+                                <div class="testimonial-content">
+                                    <p class="text">Look up at the stars and not down at your feet. Try to make sense of what you see, and wonder about what makes the universe exist. Be curious.</p>
+                                    <h6 class="author-name">Muhammad Alyan</h6>
+                                </div>
+                            </div> <!-- single testimonial -->
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="single-testimonial mt-30 mb-30 text-center">
+                                <div class="testimonial-image">
+                                    <img src="{% static "assets/images/author-1.jpg"%}" alt="Author">
+                                </div>
+                                <div class="testimonial-content">
+                                    <p class="text">Hard work beats talent<br> when talent don't work hard but if talent works hard it become hard to be beaten</p>
+                                    <h6 class="author-name">Ahsan Ali</h6>
+                                </div>
+                            </div> <!-- single testimonial -->
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="single-testimonial mt-30 mb-30 text-center">
+                                <div class="testimonial-image">
+                                    <img src="{% static "assets/images/author-2.jpg"%}" alt="Author">
+                                </div>
+                                <div class="testimonial-content">
+                                    <p class="text">The will to win, the desire to succeed, the urge to reach your full potential... these are the keys that will unlock the door to personal excellence.</p>
+                                    <h6 class="author-name">Muhammad Salman</h6>
+                                </div>
+                            </div> <!-- single testimonial -->
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="single-testimonial mt-30 mb-30 text-center">
+                                <div class="testimonial-image">
+                                    <img src="{% static "assets/images/author-4.jpg"%}" alt="Author">
+                                </div>
+                                <div class="testimonial-content">
+                                    <p class="text">Determimed and motivated individual<br> striving to bring about a change in this world using technology and inovation.</p>
+                                    <h6 class="author-name">Muhammad Haris Bin Amir</h6>
+                                </div>
+                            </div> <!-- single testimonial -->
+                        </div>
+                    </div> <!-- row -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    
+
+
+
+
+
+
+
+
+
+
+    <!--====== jquery js ======-->
+    <script src="{% static "assets/js/vendor/modernizr-3.6.0.min.js" %}"></script>
+    <script src="{% static "assets/js/vendor/jquery-1.12.4.min.js" %}"></script>
+
+    <!--====== Bootstrap js ======-->
+    <script src="{% static "assets/js/bootstrap.min.js" %}"></script>
+    <script src="{% static "assets/js/popper.min.js" %}"></script>
+
+    <!--====== Slick js ======-->
+    <script src="{% static "assets/js/slick.min.js" %}"></script>
+
+    <!--====== Isotope js ======-->
+    <script src="{% static "assets/js/isotope.pkgd.min.js" %}"></script>
+
+    <!--====== Images Loaded js ======-->
+    <script src="{% static "assets/js/imagesloaded.pkgd.min.js" %}"></script>
+
+    <!--====== Magnific Popup js ======-->
+    <script src="{% static "assets/js/jquery.magnific-popup.min.js" %}"></script>
+
+    <!--====== Scrolling js ======-->
+    <script src="{% static "assets/js/scrolling-nav.js" %}"></script>
+    <script src="{% static "assets/js/jquery.easing.min.js" %}"></script>
+
+    <!--====== wow js ======-->
+    <script src="{% static "assets/js/wow.min.js" %}"></script>
+
+    <!--====== Main js ======-->
+    <script src="{% static "assets/js/main.js" %}"></script>
+
+</body>
+
+</html>
